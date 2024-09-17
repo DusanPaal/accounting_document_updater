@@ -1,0 +1,18 @@
+sap:
+  system: P25 # (str) SAP system ID (e.g. P25)
+
+report:
+  file_name: output     # (str) Name of the processing output report
+  datasheet_name: Data  # (str) Name of the datasheet in the report
+
+messages:
+  requests:
+    account:  # (str) Email account for sending requests
+    mailbox:  # (str) Email account for receiving requests
+    server:   # (str) Email server for sending requests
+  notifications:
+    send: true  # (bool) whether notifications should be sent to users
+    sender:     # (str) Email account for sending notifications
+    subject:    # (str) Subject of the notification email
+    host:       # (str) SMTP server for sending notifications
+    port:       # (int) Port of the SMTP server for sending notifications
